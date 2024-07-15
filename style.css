@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    width: 100%;
+    background:url(./img/cmt.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgb(27, 22, 11);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+    
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+   list-style: none; 
+   margin-top: 30px;
+   margin-left: 60px;
+   font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+}
+ul li a:hover{
+    color: orange;
+    transform: scale(1.2);
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(95, 73, 28);
+    margin-top: 15px;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 12px;
+    color: white;
+    font-size: 15px;
+
+}
+.content{
+    width: 1250px;
+    height: auto;
+    margin: auto;
+    color: rgb(233, 230, 224);
+    position: relative;
+    margin-top: 50px;
+}
+.content .pra{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    padding-left: 20px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+.content .cn{
+    font-size: 18px;
+    font-family: fantasy;
+    font-weight: bold;
+    margin-left: 20px;
+    border-radius: 10px;
+    background: orange;
+    border: none;
+    height: 40px;
+    width: 160px;
+    cursor: pointer;
+    transition: .4s;
+
+}
+.content .cn a{
+    text-decoration: none;
+    transition: .3s;
+} 
+.cn:hover{
+    background-color: white;
+
+}
+span{
+    font-size: 62px;
+    color: orange;
+}
+.form{
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top:150px;
+    left: 950px;
+    border: 1px solid rgb(62, 27, 27);
+    border-radius: 10px;
+    padding: 20px;
+}
+.form h2{
+    width: 200px;
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: orange;
+    border-radius: 7px;
+    margin: 2px;
+    padding: 6px;
+}
+.form input{
+    width: 220px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid orange;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.btnn{
+    height: 40px;
+    width: 250px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    cursor: pointer;
+
+
+}
+.btnn a{
+    text-decoration: none;
+}
+.link{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+}
+ .form a{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+ .card {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: 30px 40% ;
+    overflow: hidden;
+    border-radius: 3px;
+    transition: all .4s;
+   
+    
+ }
+ .card:hover{
+    box-shadow: 1px 1px 6px 1px rgba(0,0,0, .9);
+ }
+ .card img{
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 2s;
+ }
+ .card img:hover{
+    filter: grayscale(0%);
+ }
+ .card h2{
+    position: absolute;
+    bottom: 0;
+    color: beige;
+    background-color: rgb(8, 57, 57);
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    transform-origin: bottom;
+    transition: all .5s;
+    transform: perspective(500px) rotatex(-90deg);
+ }
+ .card:hover h2{
+    transform: perspective(500px) rotatex(0deg);
+ }
+ .card ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,0);
+    display: inline-block;
+    size: 40px;
+
+ }
+
+ .card ul li{
+    height: 40px;
+    width: 30px;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 5px;
+    transform: perspective(500px) rotatey(90deg);
+    transition: all .3s;
+    
+ }
+ .card:hover ul li{
+    transform: perspective(500px) rotatey(0deg);
+ }
+
